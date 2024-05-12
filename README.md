@@ -19,7 +19,7 @@ To start the script with the default settings (checking every 30 minutes):
 python plex-tidal-dl.py
 ```
 
-You can start and scan immediately by add '--s'
+You can start and scan immediately by adding '--s'
 ```bash
 python plex-tidal-dl.py --s
 ```
