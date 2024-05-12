@@ -8,6 +8,7 @@ This is a simplified version of the [Plex-Tidal-DL script](https://github.com/Ze
 ## Features
 - **Automatic Syncing**: Regularly checks for new favorited albums on Tidal and downloads them.
 - **Plex Library Updates**: Automatically refreshes your Plex library with newly downloaded content.
+- **Daily Logging**: Automatically creates logs in the script's directory. New logs are created daily at midnight.
 
 ## Prerequisites
 - A Plex server setup with access to a Tidal subscription.
