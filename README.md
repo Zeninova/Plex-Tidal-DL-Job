@@ -6,7 +6,6 @@ Plex supports Tidal integration. If you have a Tidal subscription and use Plex a
 ## Features
 - **Automatic Syncing**: Regularly checks for new favorited albums on Tidal and downloads them.
 - **Plex Library Updates**: Automatically refreshes your Plex library with newly downloaded content.
-- **Flexible Scheduling**: Configure the frequency of checks to suit your needs.
 
 ## Prerequisites
 - A Plex server setup with access to a Tidal subscription.
