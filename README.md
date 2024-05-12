@@ -3,6 +3,8 @@
 
 Plex supports Tidal integration. If you have a Tidal subscription and use Plex as your media server, this script automates the process of checking for newly favorited Tidal albums and downloading them using Tidal-DL. Once downloaded, the script updates your Plex library to include these new additions.
 
+This is a simplified version of the [Plex-Tidal-DL script](https://github.com/Zeninova/Plex-Tidal-DL) that lacks a settings menu. This is useful if you just want to run the script from a task scheduler.
+
 ## Features
 - **Automatic Syncing**: Regularly checks for new favorited albums on Tidal and downloads them.
 - **Plex Library Updates**: Automatically refreshes your Plex library with newly downloaded content.
