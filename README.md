@@ -13,13 +13,6 @@
 - Python 3.x installed on your system.
 - Tidal-DL installed, which can be found [here](https://github.com/yaronzz/Tidal-Media-Downloader).
 
-
-## Setup
-On Windows, I created a job in Task Scheduler with a daily trigger. The program/script field should a path to python.exe. The argument should be the directory containing the script with any arguments:
-```bash
-"<SCRIPT DIRECTORY>\Plex-Tidal-DL-job.py" --s --i 60m
-```
-
 ## Usage
 To start the script with the default settings (checking every 30 minutes):
 ```bash
@@ -44,6 +37,12 @@ You can adjust the frequency of checks by using the command-line argument `--i` 
 
 **Note**: Only minute (m) and second (s) intervals are supported.
 
+## Setup
+On Windows, I created a job in Task Scheduler with a daily trigger. The program/script field should a path to python.exe. The argument should be the directory containing the script with any arguments:
+```bash
+"<SCRIPT DIRECTORY>\Plex-Tidal-DL-job.py" --s --i 60m
+```
+In this example, the script will scan immediately upon starting, and then scan every 60 minutes after that.
 
 ## Acknowledgments
 Special thanks to **dirty-jimm** for his original script. Check it out [here](https://github.com/dirty-jimm/Tidal_DL_Plus).
