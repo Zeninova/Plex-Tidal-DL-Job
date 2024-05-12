@@ -17,7 +17,7 @@
 ## Setup
 On Windows, I created a job in Task Scheduler with a daily trigger. The program/script field should a path to python.exe. The argument should be the directory containing the script with any arguments:
 ```bash
-"C:\Users\Morgan\Desktop\Plex-Tidal-DL-job.py" --s --i 60m
+"<SCRIPT DIRECTORY>\Plex-Tidal-DL-job.py" --s --i 60m
 ```
 
 ## Usage
