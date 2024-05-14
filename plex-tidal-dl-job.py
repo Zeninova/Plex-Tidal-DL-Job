@@ -13,6 +13,8 @@ import argparse
 import sys
 from logging.handlers import TimedRotatingFileHandler
 
+os.environ['PYTHONIOENCODING'] = 'utf-8'
+
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
