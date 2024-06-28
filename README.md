@@ -42,7 +42,7 @@ You can adjust the frequency of checks by using the command-line argument `--i` 
 ## Setup
 On Windows, I created a job in Task Scheduler with a daily trigger. The program/script field should be a path to python.exe. The argument should be the directory containing the script with any arguments:
 ```bash
-"python <SCRIPT DIRECTORY>\Plex-Tidal-DL-job.py" --s --i 60m
+python "<SCRIPT DIRECTORY>\Plex-Tidal-DL-job.py" --s --i 60m
 ```
 In this example, the script will scan immediately upon starting, and then scan every 60 minutes after that.
 
